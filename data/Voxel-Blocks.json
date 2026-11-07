@@ -1,0 +1,452 @@
+{
+  "worldRules": {
+    "seaLevel": 63,
+    "maxTerrainHeight": 320,
+    "noiseAmplitude": 2,
+    "noiseScale": 128,
+    "heightExponent": 2.8,
+    "vsyncEnabled": true,
+    "fpsCap": 60,
+    "waterSpreadDistance": 15
+  },
+  "blocks": [
+    {
+      "id": "vanilla:air",
+      "blockId": 0,
+      "name": "Air",
+      "isSolid": false,
+      "isTransparent": true,
+      "miningSpeed": 0,
+      "topColor": [
+        0,
+        0,
+        0
+      ],
+      "sideColor": [
+        0,
+        0,
+        0
+      ],
+      "bottomColor": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "vanilla:bedrock",
+      "blockId": 1,
+      "name": "Bedrock",
+      "isSolid": true,
+      "isTransparent": false,
+      "miningSpeed": 199998,
+      "topColor": [
+        0.18,
+        0.18,
+        0.2
+      ],
+      "sideColor": [
+        0.14,
+        0.14,
+        0.16
+      ],
+      "bottomColor": [
+        0.1,
+        0.1,
+        0.12
+      ]
+    },
+    {
+      "id": "vanilla:stone",
+      "blockId": 2,
+      "name": "Stone",
+      "isSolid": true,
+      "isTransparent": false,
+      "miningSpeed": 7,
+      "topColor": [
+        0.6,
+        0.62,
+        0.64
+      ],
+      "sideColor": [
+        0.52,
+        0.54,
+        0.56
+      ],
+      "bottomColor": [
+        0.44,
+        0.46,
+        0.48
+      ]
+    },
+    {
+      "id": "vanilla:dirt",
+      "blockId": 3,
+      "name": "Dirt",
+      "isSolid": true,
+      "isTransparent": false,
+      "miningSpeed": 1.2,
+      "topColor": [
+        0.48,
+        0.33,
+        0.22
+      ],
+      "sideColor": [
+        0.42,
+        0.29,
+        0.19
+      ],
+      "bottomColor": [
+        0.36,
+        0.25,
+        0.16
+      ]
+    },
+    {
+      "id": "vanilla:grass",
+      "blockId": 4,
+      "name": "Grass",
+      "isSolid": true,
+      "isTransparent": false,
+      "miningSpeed": 0.6,
+      "topColor": [
+        0.32,
+        0.72,
+        0.24
+      ],
+      "sideColor": [
+        0.3,
+        0.66,
+        0.22
+      ],
+      "bottomColor": [
+        0.42,
+        0.29,
+        0.19
+      ]
+    },
+    {
+      "id": "vanilla:wood",
+      "blockId": 5,
+      "name": "Wood",
+      "isSolid": true,
+      "isTransparent": false,
+      "miningSpeed": 4,
+      "topColor": [
+        0.66,
+        0.52,
+        0.34
+      ],
+      "sideColor": [
+        0.4,
+        0.27,
+        0.16
+      ],
+      "bottomColor": [
+        0.66,
+        0.52,
+        0.34
+      ]
+    },
+    {
+      "id": "vanilla:leaves",
+      "blockId": 6,
+      "name": "Leaves",
+      "isSolid": true,
+      "isTransparent": false,
+      "miningSpeed": 0.4,
+      "topColor": [
+        0.22,
+        0.62,
+        0.2
+      ],
+      "sideColor": [
+        0.18,
+        0.54,
+        0.16
+      ],
+      "bottomColor": [
+        0.15,
+        0.46,
+        0.14
+      ]
+    },
+    {
+      "id": "vanilla:water",
+      "blockId": 7,
+      "name": "Water",
+      "isSolid": false,
+      "isTransparent": true,
+      "isBreakable": false,
+      "miningSpeed": 0,
+      "topColor": [
+        0.18,
+        0.52,
+        0.88
+      ],
+      "sideColor": [
+        0.15,
+        0.46,
+        0.82
+      ],
+      "bottomColor": [
+        0.12,
+        0.4,
+        0.76
+      ]
+    },
+    {
+      "id": "vanilla:sand",
+      "blockId": 8,
+      "name": "Sand",
+      "isSolid": true,
+      "isTransparent": false,
+      "miningSpeed": 1,
+      "topColor": [
+        0.86,
+        0.82,
+        0.54
+      ],
+      "sideColor": [
+        0.8,
+        0.76,
+        0.48
+      ],
+      "bottomColor": [
+        0.72,
+        0.68,
+        0.42
+      ]
+    },
+    {
+      "id": "vanilla:torch",
+      "blockId": 9,
+      "name": "Torch",
+      "isSolid": false,
+      "isTransparent": true,
+      "miningSpeed": 0.2,
+      "topColor": [
+        1,
+        0.82,
+        0.35
+      ],
+      "sideColor": [
+        0.5,
+        0.34,
+        0.18
+      ],
+      "bottomColor": [
+        0.4,
+        0.27,
+        0.15
+      ]
+    },
+    {
+      "id": "vanilla:snow",
+      "blockId": 10,
+      "name": "Snow",
+      "isSolid": true,
+      "isTransparent": false,
+      "miningSpeed": 0.6,
+      "topColor": [
+        0.95,
+        0.97,
+        1
+      ],
+      "sideColor": [
+        0.88,
+        0.9,
+        0.94
+      ],
+      "bottomColor": [
+        0.8,
+        0.82,
+        0.86
+      ]
+    },
+    {
+      "id": "vanilla:coal",
+      "blockId": 11,
+      "name": "Coal Ore",
+      "isSolid": true,
+      "isTransparent": false,
+      "miningSpeed": 9,
+      "topColor": [
+        0.28,
+        0.28,
+        0.3
+      ],
+      "sideColor": [
+        0.24,
+        0.24,
+        0.26
+      ],
+      "bottomColor": [
+        0.2,
+        0.2,
+        0.22
+      ]
+    },
+    {
+      "id": "vanilla:iron",
+      "blockId": 12,
+      "name": "Iron Ore",
+      "isSolid": true,
+      "isTransparent": false,
+      "miningSpeed": 12,
+      "topColor": [
+        0.75,
+        0.65,
+        0.55
+      ],
+      "sideColor": [
+        0.68,
+        0.58,
+        0.5
+      ],
+      "bottomColor": [
+        0.58,
+        0.5,
+        0.44
+      ]
+    },
+    {
+      "id": "vanilla:cactus",
+      "blockId": 13,
+      "name": "Cactus",
+      "isSolid": true,
+      "isTransparent": false,
+      "miningSpeed": 0.8,
+      "topColor": [
+        0.26,
+        0.6,
+        0.22
+      ],
+      "sideColor": [
+        0.2,
+        0.52,
+        0.18
+      ],
+      "bottomColor": [
+        0.18,
+        0.44,
+        0.16
+      ]
+    },
+    {
+      "id": "vanilla:diamond_ore",
+      "blockId": 15,
+      "name": "Diamond Ore",
+      "isSolid": true,
+      "isTransparent": false,
+      "miningSpeed": 14,
+      "topColor": [
+        0.45,
+        0.85,
+        0.88
+      ],
+      "sideColor": [
+        0.38,
+        0.76,
+        0.8
+      ],
+      "bottomColor": [
+        0.3,
+        0.64,
+        0.68
+      ]
+    },
+    {
+      "id": "vanilla:crafting_table",
+      "blockId": 16,
+      "name": "Crafting Table",
+      "isSolid": true,
+      "isTransparent": false,
+      "miningSpeed": 2.5,
+      "topColor": [
+        0.62,
+        0.44,
+        0.26
+      ],
+      "sideColor": [
+        0.48,
+        0.32,
+        0.18
+      ],
+      "bottomColor": [
+        0.4,
+        0.27,
+        0.16
+      ]
+    },
+    {
+      "id": "vanilla:furnace",
+      "blockId": 17,
+      "name": "Furnace",
+      "isSolid": true,
+      "isTransparent": false,
+      "miningSpeed": 3.5,
+      "topColor": [
+        0.5,
+        0.5,
+        0.52
+      ],
+      "sideColor": [
+        0.42,
+        0.42,
+        0.44
+      ],
+      "bottomColor": [
+        0.36,
+        0.36,
+        0.38
+      ]
+    },
+    {
+      "id": "vanilla:smooth_stone",
+      "blockId": 18,
+      "name": "Smooth Stone",
+      "isSolid": true,
+      "isTransparent": false,
+      "miningSpeed": 6,
+      "topColor": [
+        0.72,
+        0.72,
+        0.74
+      ],
+      "sideColor": [
+        0.66,
+        0.66,
+        0.68
+      ],
+      "bottomColor": [
+        0.6,
+        0.6,
+        0.62
+      ]
+    },
+    {
+      "id": "vanilla:command_block",
+      "blockId": 19,
+      "name": "Command Block",
+      "isSolid": true,
+      "isTransparent": false,
+      "miningSpeed": 4,
+      "topColor": [
+        0.58,
+        0.62,
+        0.66
+      ],
+      "sideColor": [
+        0.42,
+        0.47,
+        0.52
+      ],
+      "bottomColor": [
+        0.3,
+        0.34,
+        0.38
+      ]
+    }
+  ]
+}
