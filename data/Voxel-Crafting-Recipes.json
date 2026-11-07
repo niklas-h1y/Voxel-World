@@ -1,0 +1,243 @@
+[
+  {
+    "name": "Wooden Planks",
+    "pattern": [
+      5,
+      null,
+      null,
+      null
+    ],
+    "out": 200,
+    "outCount": 4
+  },
+  {
+    "name": "Sticks",
+    "pattern": [
+      200,
+      null,
+      200,
+      null
+    ],
+    "out": 201,
+    "outCount": 4
+  },
+  {
+    "name": "Crafting Table",
+    "pattern": [
+      200,
+      200,
+      200,
+      200
+    ],
+    "out": 16,
+    "outCount": 1
+  },
+  {
+    "name": "Furnace",
+    "pattern": [
+      2,
+      2,
+      2,
+      2,
+      null,
+      2,
+      2,
+      2,
+      2
+    ],
+    "out": 17,
+    "outCount": 1
+  },
+  {
+    "name": "Wooden Pickaxe",
+    "pattern": [
+      200,
+      200,
+      200,
+      null,
+      201,
+      null,
+      null,
+      201,
+      null
+    ],
+    "out": 205,
+    "outCount": 1
+  },
+  {
+    "name": "Stone Pickaxe",
+    "pattern": [
+      2,
+      2,
+      2,
+      null,
+      201,
+      null,
+      null,
+      201,
+      null
+    ],
+    "out": 206,
+    "outCount": 1
+  },
+  {
+    "name": "Iron Pickaxe",
+    "pattern": [
+      202,
+      202,
+      202,
+      null,
+      201,
+      null,
+      null,
+      201,
+      null
+    ],
+    "out": 207,
+    "outCount": 1
+  },
+  {
+    "name": "Diamond Pickaxe",
+    "pattern": [
+      204,
+      204,
+      204,
+      null,
+      201,
+      null,
+      null,
+      201,
+      null
+    ],
+    "out": 208,
+    "outCount": 1
+  },
+  {
+    "name": "Wooden Sword",
+    "pattern": [
+      null,
+      200,
+      null,
+      null,
+      200,
+      null,
+      null,
+      201,
+      null
+    ],
+    "out": 209,
+    "outCount": 1
+  },
+  {
+    "name": "Stone Sword",
+    "pattern": [
+      null,
+      2,
+      null,
+      null,
+      2,
+      null,
+      null,
+      201,
+      null
+    ],
+    "out": 210,
+    "outCount": 1
+  },
+  {
+    "name": "Iron Sword",
+    "pattern": [
+      null,
+      202,
+      null,
+      null,
+      202,
+      null,
+      null,
+      201,
+      null
+    ],
+    "out": 211,
+    "outCount": 1
+  },
+  {
+    "name": "Diamond Sword",
+    "pattern": [
+      null,
+      204,
+      null,
+      null,
+      204,
+      null,
+      null,
+      201,
+      null
+    ],
+    "out": 212,
+    "outCount": 1
+  },
+  {
+    "name": "Wooden Axe",
+    "pattern": [
+      200,
+      200,
+      null,
+      200,
+      201,
+      null,
+      null,
+      201,
+      null
+    ],
+    "out": 217,
+    "outCount": 1
+  },
+  {
+    "name": "Wooden Shovel",
+    "pattern": [
+      null,
+      200,
+      null,
+      null,
+      201,
+      null,
+      null,
+      201,
+      null
+    ],
+    "out": 218,
+    "outCount": 1
+  },
+  {
+    "name": "Stone Axe",
+    "pattern": [
+      2,
+      2,
+      null,
+      2,
+      201,
+      null,
+      null,
+      201,
+      null
+    ],
+    "out": 219,
+    "outCount": 1
+  },
+  {
+    "name": "Stone Shovel",
+    "pattern": [
+      null,
+      2,
+      null,
+      null,
+      201,
+      null,
+      null,
+      201,
+      null
+    ],
+    "out": 220,
+    "outCount": 1
+  }
+]
